@@ -1,0 +1,6 @@
+{% extends "personal/header.html" %}
+{% block content %}
+    {% for post in object_list %}
+        <h5>{{  post.pub_date|date:"Y-m-d" }}<a href="/blog/{{ post.id }}"> {{ post.title }} - Published By: {{ post.publisher }} Comments: {{ post.comments.count }}</a></h5>
+    {% endfor %}
+{% endblock %}

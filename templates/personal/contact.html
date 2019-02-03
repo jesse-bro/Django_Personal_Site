@@ -1,0 +1,28 @@
+{% extends 'personal/header.html' %}
+{% load static %}
+{% block content %}
+    <div class="row-fluid">
+        <div class="col-sm-15 text-center">
+            <div class="page-header" style="text-align: center">
+                <h2> Get In Touch!</h2>
+                <p>Connect with me through any of these services!</p>
+            </div>
+            <div class="page-header" style="margin-bottom: 70px">
+            <button type="button" class="btn btn-default btn-circle btn-lg" style="width:70px; height:70px; border-radius: 35px; line-height: 1.42857;">
+                <img src="{% static 'personal/img/gmail.png' %}"
+                     style="width:60px; height:60px; position: relative; display: block; right:12px; bottom:6px"/>
+            </button>
+            </div>
+            <button type="button" class="btn btn-default btn-circle" style="width:70px; height: 70px; border-radius: 35px; font-size: 24px; line-height: 1.33;">
+                <img src="{% static 'personal/img/link.png' %}"
+                     style="width:60px; height:60px; position: relative; display: block; right: 7.5px; bottom:2px"/>
+            </button>
+
+            <button type="button" class="btn btn-default btn-circle" style="width:70px; height: 70px; border-radius: 35px; font-size: 12px; line-height: 1.42857;">
+                <img src="{% static 'personal/img/git.png' %}"
+                     style="width:60px; height:60px; position: relative; display:block; right:8px; bottom:2px"/>
+            </button>
+
+        </div>
+    </div>
+{% endblock %}
