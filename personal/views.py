@@ -11,3 +11,6 @@ def contact(request):
 
 def projects(request):
     return render(request, 'personal/projects.html')
+
+def education(request):
+    return render(request, 'personal/education.html')

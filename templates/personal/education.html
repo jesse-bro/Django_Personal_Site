@@ -1,0 +1,94 @@
+{%  extends 'personal/header.html' %}
+{% load static %}
+{% block content %}
+    <div class="text-center">
+        <div class="page-header">
+            <h1>Education and Work Experience </h1>
+        </div>
+        <h2 style="font-size: 30px;">
+            Education
+        </h2>
+    </div>
+    <hr>
+
+    <div class="row text-center">
+        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+            <div class="card-img-top">
+                <img src="{% static 'personal/img/utrgv.jpg' %}" class="img-fluid rounded" style="height:100%; width: 100%;">
+            </div>
+            <div class="card-body pb-0">
+                <h3 class="my-3" style="font-weight: bold; font-size:24px"> UTRGV </h3>
+                <p style="color: grey"> University of Texas Rio Grande Valley</p>
+                <p> Bachelor of Science in <b>Computer Science</b></p>
+                <p> <i class="fa fa-calendar"></i> Aug. 2012 - May 2017</p>
+                <p>GPA: <b>3.3</b>/4.0</p>
+                <a href="#" class="btn" style="border-radius: 35px; border: 2px solid rgba(46, 49, 49, .75);"><i class="fa fa-clone left"></i> View School</a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+            <div class="card-img-top">
+                <img src="{% static 'personal/img/CEED-logo.png' %}" class="img-fluid rounded" style="height:100%; width:100%">
+            </div>
+            <div class="card-body pb-0">
+                <h4 class="my-3" style="font-weight: bold; font-size: 24px"> CEED </h4>
+                <p style="color: grey"> Center of Education and Economic Development</p>
+                <p class="card-text"> 12 - Week Cyber Security Boot Camp </p>
+                <p> <i class="fa fa-calendar"></i> Jan. 2018 - March 2018</p>
+                <p style="font-weight: bold"> Sec+, Net+, A+</p>
+                <a href="#" class="btn" style="border-radius: 35px; border: 2px solid rgba(25, 181, 254, .75);"><i class="fa fa-clone left"></i> View School</a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card-img-top">
+                <img src="{% static 'personal/img/ljlogo.png' %}" class="img-fluid rounded" style="height:75%; width:75%">
+            </div>
+            <div class="card-body pb-0">
+                <h4 class="my-3" style="font-weight: bold; font-size:24px"> La Joya High School </h4>
+                <p style="color: grey"> High School </p>
+                <p> High School Diploma </p>
+                <p class="card-text"><i class="fa fa-calendar"></i> Aug. 2009 - May 2012</p>
+                <a href="#" class="btn" style="border-radius: 35px; border: 2px solid rgba(242, 38, 19, .75);"><i class="fa fa-clone left"></i> View School</a>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 style="font-size: 30px; text-align: center">
+            Experience
+    </h2>
+    <br>
+    <div class="row pt-5">
+        <div class="col-lg-5">
+            <div class="card img-fluid" style="width:500px">
+                <img class="card-img-top" src="{% static 'personal/img/project5.gif' %}" style="width:100%; height:100%; position: relative">
+            </div>
+        </div>
+        <div class="col-lg-7">
+            <div class="row">
+                <div class="col-md-11 col-10">
+                    <h4 style="font-weight: bold"><i class="fa fa-user-circle"></i> Freelance Technical Support  </h4>
+                    <p style="margin-left: 10px; font-style: italic"><i class="fa fa-map-marker"></i> Mission, TX</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-11 col-10">
+                    <h5 style="font-weight:bold"><i class="fa fa-tasks"></i> Objective</h5>
+                    <p> • Assisting clients on providing or diagnosing creative solutions to complex problems about their PCs performance, hardware, software, and network components.
+• Installing and configuring home network hardware which includes outstanding customer service on technical support for the clients’ needs.
+• Support includes setting up troubleshooting, configuration, installation of routers, multimedia devices, and cleaning or repairing infected PCs.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-11 col-10">
+                    <h5 style="font-weight:bold"><i class="fa fa-calendar"></i> Date</h5>
+                    <p style="color: grey; margin-left:10px"> Dec. 2014 - Present</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
